@@ -24,7 +24,7 @@ local Section5 = Tab3.NewSection("Prison Life")
 
 local Button = Section5.NewButton("Prizz Life",function()
 	--//this button is located in the "Section2" section
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))();
 end)
 
 
@@ -32,21 +32,20 @@ end)
 --//buttons
 local Button = Section.NewButton("Aimbot",function()
 	--//this is located in the "Section" Section 
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/UniversalAimbotUI.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/UniversalAimbotUI.lua"))();
 end)
 
 local Button = Section2.NewButton("Infinite Yield",function()
 	--//this button is located in the "section2" Section
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))();
 end)
 
 local Button = Section4.NewButton("Nut Hub",function()
 	--//this button is located in the "Section2" section
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Qrto1/working/main/pc"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Qrto1/working/main/pc"))();
 end)
 
-
-local Button = Section2.NewButton("CMD X",function()
+local Button = Section2.NewButton("fates admin",function()
 	--//this button is located in the "section2" Section
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source'))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 end)

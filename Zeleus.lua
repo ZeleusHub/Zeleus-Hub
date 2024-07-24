@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
 
 --windows
-Window = Library.Main("Zeleus Hub Beta v. 1.0.1","k")
+Window = Library.Main("Zeleus Hub Beta v. 1.0.4","k")
 
 --//tabs
 local Tab = Window.NewTab("Universal")

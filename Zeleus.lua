@@ -28,7 +28,6 @@ local Button = Section5.NewButton("Prizz Life",function()
 end)
 
 
-
 --//buttons
 local Button = Section.NewButton("Aimbot",function()
 	--//this is located in the "Section" Section 
@@ -45,7 +44,7 @@ local Button = Section4.NewButton("Nut Hub",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Qrto1/working/main/pc"))();
 end)
 
-local Button = Section2.NewButton("fates admin",function()
+local Button = Section2.NewButton("Nameless Admin",function()
 	--//this button is located in the "section2" Section
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
 end)
